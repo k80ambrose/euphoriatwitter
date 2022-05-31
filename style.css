@@ -5,45 +5,52 @@ html {
 body {
   background: rgb(3,18,54);
   background: radial-gradient(circle, rgba(3,18,54,1) 0%, rgba(13,39,166,1) 21%, rgba(252,70,107,1) 69%, rgba(3,18,54,1) 100%);
-  max-width: 550px;
   margin: 0 auto;
+  text-align: left;
+  max-width: 45vw;
+
 }
 
 footer {
-  max-width: vw;
-  margin: 0 auto;
+  margin-bottom: 70px;
 }
 
 h1 {
-  font-size: 28px;
-  font-weight: bold;
-  font-family: monospace;
+  font-size: 60px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100;
   color: white;
   margin-top: 20px;
+  margin-bottom: 20px;
+  word-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 h2 {
-  font-size: 23px;
-  font-family: monospace;
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
   color: white;
   margin-top: 50px;
+  font-weight: 500;
+  word-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 h3 {
   font-size: 18px;
-  font-family: monospace;
+  font-family: 'Work Sans', sans-serif;
   color: white;
   font-weight: bold;
   margin-top: 1px;
 }
 
 p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   letter-spacing: 0.6px;
   word-spacing: 1px;
   color: #FFFFFF;
-  font-weight: normal;
+  font-weight: 400;
   text-decoration: none;
   font-style: normal;
   font-variant: normal;
@@ -52,11 +59,16 @@ p {
 
 a {
   font-size: 16px;
-  font-family: 'Times New Roman';
+  font-family: 'Work Sans', sans-serif;
   text-decoration: underline;
+  font-weight: 400;
   color: white;
 }
 
 div.csl-entry{
   color: #FFFFFF;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  font-weight: 400;
 }
