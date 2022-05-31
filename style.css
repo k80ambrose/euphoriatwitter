@@ -1,6 +1,5 @@
 html {
-  cursor: progress;
-
+  cursor: url('pill.png'), auto;
 }
 
 body {
@@ -11,7 +10,7 @@ body {
 }
 
 footer {
-  max-width: 'vw';
+  max-width: vw;
   margin: 0 auto;
 }
 
@@ -56,4 +55,8 @@ a {
   font-family: 'Times New Roman';
   text-decoration: underline;
   color: white;
+}
+
+div.csl-entry{
+  color: #FFFFFF;
 }
