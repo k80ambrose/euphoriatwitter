@@ -8,6 +8,11 @@ body {
   margin: 0 auto;
   text-align: left;
   max-width: 45vw;
+  background-attachment: local;
+  -webkit-user-select:none;
+  -moz-user-select:-moz-none;
+  -ms-user-select:none;
+  user-select:none;
 
 }
 
@@ -55,6 +60,7 @@ p {
   font-style: normal;
   font-variant: normal;
   text-transform: none;
+  line-height: 35px;
 }
 
 a {
